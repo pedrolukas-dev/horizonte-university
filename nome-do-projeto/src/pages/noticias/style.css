@@ -1,0 +1,277 @@
+
+.noticias-page {
+  color: #202733;
+}
+
+.noticias-topo {
+  background: #202733;
+  color: #f7f5f0;
+  padding: 78px 28px 115px;
+}
+
+.noticias-topo-inner {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.noticias-topo h1 {
+  font: 800 clamp(2.7rem, 5vw, 4.4rem)/1.1 'Manrope';
+  letter-spacing: -.065em;
+  max-width: 850px;
+  margin: 20px 0 18px;
+}
+
+.noticias-topo h1 em {
+  color: #f18a3b;
+  font-style: normal;
+}
+
+.noticias-topo p {
+  color: #c4cbd4;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 650px;
+}
+
+.noticia-destaque {
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 55px;
+  align-items: center;
+  margin-top: -55px;
+  position: relative;
+}
+
+.destaque-img {
+  height: 390px;
+  position: relative;
+}
+
+.destaque-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.destaque-img > span {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: #bd510d;
+  color: white;
+  padding: 8px 12px;
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.destaque-texto {
+  background: #fffdfa;
+  padding: 30px 28px;
+  border: 1px solid #e9e2d8;
+}
+
+.noticia-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  color: #bd510d;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+}
+
+.noticia-meta time {
+  color: #89909b;
+}
+
+.destaque-texto h2 {
+  font: 800 clamp(1.7rem, 2.7vw, 2.4rem)/1.2 'Manrope';
+  letter-spacing: -.045em;
+  margin: 22px 0 15px;
+}
+
+.destaque-texto p {
+  color: #697282;
+  line-height: 1.7;
+}
+
+.destaque-texto a {
+  display: inline-flex;
+  gap: 12px;
+  color: #bd510d;
+  font-weight: 800;
+  text-decoration: none;
+  margin-top: 28px;
+}
+
+.lista-noticias {
+  padding-top: 100px;
+  padding-bottom: 105px;
+}
+
+.lista-noticias .section-heading h2 {
+  color: #202733;
+}
+
+.lista-noticias .section-heading > p {
+  color: #697282;
+}
+
+.noticia-filtros {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.noticia-filtros button {
+  border: 1px solid #ded6ca;
+  background: transparent;
+  color: #596273;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font: 600 .85rem 'DM Sans';
+  cursor: pointer;
+}
+
+.noticia-filtros button:hover,
+.noticia-filtros button.selecionado {
+  background: #202733;
+  color: white;
+  border-color: #202733;
+}
+
+.noticias-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.noticia-card {
+  background: #fffdfa;
+  border: 1px solid #e9e2d8;
+}
+
+.noticia-card-img {
+  height: 195px;
+  position: relative;
+}
+
+.noticia-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.noticia-card-img > span {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: #fffdfa;
+  color: #bd510d;
+  padding: 7px 10px;
+  font-size: .65rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.noticia-card-conteudo {
+  padding: 22px;
+}
+
+.noticia-card-conteudo time {
+  color: #9299a3;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.noticia-card h3 {
+  font: 800 1.12rem/1.35 'Manrope';
+  margin: 12px 0 10px;
+}
+
+.noticia-card p {
+  color: #697282;
+  font-size: .9rem;
+  line-height: 1.65;
+}
+
+.noticia-card a {
+  display: inline-flex;
+  gap: 12px;
+  margin-top: 20px;
+  color: #bd510d;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: .9rem;
+}
+
+.sem-noticias {
+  color: #697282;
+  padding: 35px 0;
+}
+
+.noticias-aviso {
+  background: #eee4d6;
+  padding: 65px 0 75px;
+}
+
+.noticias-aviso h2 {
+  font: 800 clamp(2rem, 3.5vw, 3rem) 'Manrope';
+  letter-spacing: -.055em;
+  margin: 15px 0 10px;
+}
+
+.noticias-aviso h2 em {
+  color: #bd510d;
+  font-style: normal;
+}
+
+.noticias-aviso p {
+  color: #697282;
+  line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+  .noticia-destaque {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .destaque-img {
+    height: 320px;
+  }
+
+  .noticias-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .noticias-topo {
+    padding-bottom: 95px;
+  }
+}
+
+@media (max-width: 560px) {
+  .noticias-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .destaque-img {
+    height: 250px;
+  }
+
+  .noticia-destaque {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .destaque-texto {
+    padding: 24px 20px;
+  }
+
+  .noticias-topo h1 {
+    font-size: 2.5rem;
+  }
+}

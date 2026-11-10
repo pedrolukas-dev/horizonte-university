@@ -1,0 +1,177 @@
+
+.ingresso {
+    background-color: #f8f6f0;
+    color: #14243a;
+}
+
+.ingresso-banner {
+    background: linear-gradient(120deg, #14243a, #243e5c);
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.ingresso-banner span,
+.ingresso-title span {
+    color: #d99a35;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.ingresso-banner h1 {
+    font-size: 42px;
+    margin: 18px 0;
+}
+
+.ingresso-banner p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+    color: #e0e5eb;
+}
+
+.ingresso-button {
+    display: inline-block;
+    background-color: #d99a35;
+    color: #14243a;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.ingresso-button:hover {
+    background-color: #edb34f;
+    transform: translateY(-2px);
+}
+
+.ingresso-content,
+.etapas-ingresso {
+    max-width: 1150px;
+    margin: auto;
+    padding: 75px 25px;
+}
+
+.ingresso-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ingresso-title h2 {
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+.ingresso-title p {
+    color: #626d79;
+    line-height: 1.6;
+}
+
+.formas-ingresso {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.forma-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 4px solid #d99a35;
+    box-shadow: 0 4px 15px rgba(20, 36, 58, 0.07);
+    transition: 0.3s;
+}
+
+.forma-card:hover {
+    transform: translateY(-5px);
+}
+
+.forma-card h3 {
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+.forma-card p,
+.etapa p {
+    color: #626d79;
+    line-height: 1.7;
+}
+
+.etapas-ingresso {
+    max-width: none;
+    background-color: #ffffff;
+}
+
+.etapas-container {
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.etapa {
+    padding: 20px;
+}
+
+.etapa span {
+    color: #d99a35;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.etapa h3 {
+    margin: 15px 0 10px;
+}
+
+.ingresso-cta {
+    background-color: #14243a;
+    color: #ffffff;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.ingresso-cta h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.ingresso-cta p {
+    color: #dce2e9;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .ingresso-banner {
+        padding: 70px 20px;
+    }
+
+    .ingresso-banner h1 {
+        font-size: 32px;
+    }
+
+    .formas-ingresso {
+        grid-template-columns: 1fr;
+    }
+
+    .etapas-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .etapas-container {
+        grid-template-columns: 1fr;
+    }
+
+    .ingresso-title h2 {
+        font-size: 25px;
+    }
+
+    .ingresso-cta h2 {
+        font-size: 23px;
+    }
+}

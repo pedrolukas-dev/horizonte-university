@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Ingresso from './ingresso';
+import Ingresso from './ingressos';
 import Contatos from './contatos';
 import Cursos from './cursos';
 import Home from './home';

@@ -5,7 +5,7 @@ import Header from './componentes/Header';
 import Footer from './componentes/Footer';
 import Inicio from './pages/inicio';
 import Sobre from './pages/sobre';
-import Cursos from './pages/Cursos';
+import Cursos from './pages/cursos';
 import Ingresso from './pages/ingressos';
 import Noticias from './pages/noticias';
 import Contatos from './pages/contatos';

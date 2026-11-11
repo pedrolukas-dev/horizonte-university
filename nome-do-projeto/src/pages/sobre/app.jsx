@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom'
+import instituicaoImg from '../../assets/instituicao.jfif'
 import './app.css'
 
 const valores = [
@@ -38,7 +39,7 @@ function Sobre() {
 
           <div className="sobre-image">
             <img
-              src="https://images.unsplash.com/photo-1562774053-ffe1e4f8f5e4?auto=format&fit=crop&w=1100&q=85"
+              src={instituicaoImg}
               alt="Prédio de uma instituição de ensino superior"
             />
 

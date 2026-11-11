@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom'
+import estudantesImg from '../../assets/estudantes.jpg'
 import './app.css'
 
 const diferenciais = [
@@ -78,18 +79,9 @@ function Inicio() {
 
           <div className="home-visual">
             <img
-              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1100&q=85"
+              src={estudantesImg}
               alt="Estudantes caminhando pelo campus de uma universidade"
             />
-
-            <div className="visual-tag">
-              <strong>Seu horizonte</strong>
-              <span>de possibilidades</span>
-            </div>
-
-            <div className="visual-mark">
-              H<span>.</span>
-            </div>
           </div>
 
         </div>
